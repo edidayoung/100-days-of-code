@@ -58,7 +58,7 @@ body {
   border: none;
   outline: none;
   border-radius: 22px;
-  background-color: rgba(146, 91, 197, 0.3);
+  background-color: rgba(63, 9, 114, 0.5);
   color: #dbdbdb;
 }
 
@@ -85,6 +85,7 @@ body {
 }
 
 .todos-container {
+ width: 100%; 
  display: flex;
  align-items: center;
  justify-content: center;
@@ -102,8 +103,82 @@ body {
   margin-bottom: 10px;
   padding: 8px 10px;
   border-radius: 30px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   position: relative;
   transition: box-shadow 0.2s ease;
+}
+
+#todo-list li:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#todo-list li .checkbox {
+  min-width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  border-radius: 50%;
+  appearance: none;
+  cursor: pointer;
+  transition: all 0.2 ease;
+  /*i added these 2 lines */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#todo-list li .checkbox:checked {
+  background: rgba(47, 3, 88, 0.5);
+  transform: scale(1.1);
+}
+
+#todo-list li .checkbox:checked::before {
+  content: '\2713';
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+#todo-list li span{
+  flex: 1;
+  margin-left: 10px;
+  word-wrap: break-word;
+}
+
+.todo-buttons {
+  display: flex;
+  gap: 10px;
+  margin-right: auto;
+}
+
+.todo-buttons button {
+  background: rgba(136, 49, 218, 0.3);
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.todo-buttons button:hover {
+  transform: scale(1.2);
+}
+
+.todo-buttons .edit-btn {
+  background: #2ECC71;
+}
+
+.todo-buttons .delete-btn {
+  background:#E74C3C;
 }
