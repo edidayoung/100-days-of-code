@@ -1,10 +1,8 @@
-# #100DaysOfCode Log - Day 1 - [Edidayoung]
+# #100DaysOfCode Log - Round 1 Day 1 - [Edidayoung]
 
-The log of my #100DaysOfCode challenge. Started on [July 17, Monday, 2017].
-
-## Log
+The log of my #100DaysOfCode challenge. Started on [September 26, Friday, 2025].
 
 ### R1D1 
-Started a Weather App. Worked on the draft layout of the app, struggled with OpenWeather API http://www.example.com
+Starting to build a new CRUD(ToDo) app today Using JavaScript. Check log.md for status.
 
 ### R1D2
