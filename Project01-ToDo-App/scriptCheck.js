@@ -4,10 +4,35 @@ document.addEventListener('DOMContentLoaded', () => {
   const taskList = document.getElementById('todo-list');
   const emptyImage = document.querySelector('.empty-image');
   const todosContainer = document.querySelector('.todos-container');
+  const progressBar = document.getElementById('progress');
+  const progressNumbers = document.getElementById('numbers');
+  const progressHeading = document.querySelector('.details h3')
 
   const toggleEmptyState = () => {
     emptyImage.style.display = taskList.children.length === 0 ? 'block' : 'none';
     todosContainer.style.width = taskList.children.length > 0 ? '100%' : '50%';
+  };
+
+  const updateProgress = () => {
+    const total = taskList.children.length;
+    const completed = taskList.querySelectorAll('.completed').length;
+
+    if (total === 0) {
+      progressBar.style.width = '0%';
+      progressNumbers.textContent = '0 / 0';
+      progressHeading.textContent = 'Keep It Up!';
+      return;
+    }
+
+    const percent = Math.round((completed / total) * 100);
+    progressBar.style.width = percent + '%';
+    progressNumbers.textContent = `${completed} / ${total}`; 
+    
+    if (completed === total) {
+      progressHeading.textContent = "All Tasks Completed!"
+      Celeberate();
+    }
+
   };
 
   const addTask = (text, completed = false) => {
@@ -43,6 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
       editBtn.disabled = isChecked;         
       editBtn.style.opacity = isChecked ? '0.2' : '1';
       editBtn.style.pointerEvents = isChecked ? 'none' : 'auto';
+      updateProgress();
     });
 
     editBtn.addEventListener('click', () => {
@@ -56,11 +82,13 @@ document.addEventListener('DOMContentLoaded', () => {
     deleteBtn.addEventListener('click', () => {
       li.remove();
       toggleEmptyState();
+      updateProgress();
     });
 
     taskList.appendChild(li);
     taskInput.value = '';
     toggleEmptyState();
+    updateProgress();
   };
 
   // IMPORTANT: call addTask() without passing the event object, and prevent default form submit
@@ -78,3 +106,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
   toggleEmptyState();
 });
+
+const Celeberate = () => {
+  const defaults = {
+  spread: 360,
+  ticks: 50,
+  gravity: 0,
+  decay: 0.94,
+  startVelocity: 30,
+  shapes: ["star"],
+  colors: ["FFE400", "FFBD00", "E89400", "FFCA6C", "FDFFB8"],
+};
+
+function shoot() {
+  confetti({
+    ...defaults,
+    particleCount: 40,
+    scalar: 1.2,
+    shapes: ["star"],
+  });
+
+  confetti({
+    ...defaults,
+    particleCount: 10,
+    scalar: 0.75,
+    shapes: ["circle"],
+  });
+}
+
+setTimeout(shoot, 0);
+setTimeout(shoot, 60);
+setTimeout(shoot, 80);
+}

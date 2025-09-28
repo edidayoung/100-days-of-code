@@ -44,6 +44,55 @@ body {
   font-size: 2rem;
 }
 
+.stats-container{
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.details {
+  width: 100%;
+}
+
+.details h3{
+  color: white;
+}
+
+#progressbar {
+  width: 100%;
+  height: 7px;
+  background: rgba(165, 141, 187, 0.3);
+  border-radius: 20px;
+  position: relative;
+  margin-top: 15px;
+}
+
+#progress {
+  width: 0%;
+  height: 100%;
+  background: rgb(41, 0, 75);
+  border-radius: 20px;
+  transition: width 0.3s ease;
+}
+
+#numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: rgb(41, 0, 75);
+  border: 2px solid rgba(175, 89, 255, 0.3);
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+
 .input-area {
  display: flex;
  justify-content: space-between;
@@ -146,6 +195,11 @@ body {
   flex: 1;
   margin-left: 10px;
   word-wrap: break-word;
+}
+
+#todo-list li.completed span {
+  text-decoration: 2px line-through rgb(0, 0, 0);
+  color: black;
 }
 
 .todo-buttons {

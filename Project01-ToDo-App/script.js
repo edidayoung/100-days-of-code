@@ -4,19 +4,28 @@ document.addEventListener('DOMContentLoaded', () => {
   const taskList = document.getElementById('todo-list');
   const emptyImage = document.querySelector('.empty-image');
   const todosContainer = document.querySelector('.todos-container');
+  const progressBar = document.getElementById('progress');
+  const progressNumbers = getElementById('numbers');
 
   const toggleEmptyState = () => {
     emptyImage.style.display = taskList.children.length === 0 ? 'block' : 'none';
     todosContainer.style.width = taskList.children.length > 0 ? '100%' : '50%';
   }
+
+  const updateProgress = (checkCompletion = true) => {
+    const totalTasks = taskList.children.length;
+    const completedTasks = taskList.querySelectorAll('.checkbox:checked').length
+
+    progressBar.style.width = totalTasks ? `${(completedTasks / totalTasks) * 100}%` : '0%';
+    progressNumbers.textContent = `${completedTasks} / ${totalTasks}`;
+  }
   
-  const addTask = (text, completed = false) => {
+  const addTask = (text, completed = false, checkCompletion = true) => {
     const taskText = text || taskInput.value.trim();
     if (!taskText) {
       return;
     }
 
-    
     const li = document.createElement('li');
     li.textContent = taskText;
     li.innerHTML = `
@@ -45,6 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
       editBtn.disabled = isChecked; 
       editBtn.style.opacity = isChecked ? '0.3' : '1';
       editBtn.style.pointerEvents = isChecked ? 'none' : 'auto'; 
+      updateProgress();
     });
 
     editBtn.addEventListener('click', () => {
@@ -52,17 +62,20 @@ document.addEventListener('DOMContentLoaded', () => {
         taskInput.value = li.querySelector('span').textContent;
         li.remove();
         toggleEmptyState();
+        updateProgress(false);
       }
     });
 
     li.querySelector('.delete-btn').addEventListener('click', () => {
       li.remove();
       toggleEmptyState();
+      updateProgress();
     })
 
     taskList.appendChild(li);
     taskInput.value = '';
     toggleEmptyState();
+    updateProgress(checkCompletion);
     };
 
   console.log(addTaskButton.addEventListener('click', () => addTask));
