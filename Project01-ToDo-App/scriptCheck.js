@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
     todosContainer.style.width = taskList.children.length > 0 ? '100%' : '50%';
   };
 
+  let hasCeleberated = false;
+
   const updateProgress = () => {
     const total = taskList.children.length;
     const completed = taskList.querySelectorAll('.completed').length;
@@ -21,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       progressBar.style.width = '0%';
       progressNumbers.textContent = '0 / 0';
       progressHeading.textContent = 'Keep It Up!';
+      hasCeleberated = false;
       return;
     }
 
@@ -30,10 +33,31 @@ document.addEventListener('DOMContentLoaded', () => {
     
     if (completed === total) {
       progressHeading.textContent = "All Tasks Completed!"
-      Celeberate();
+      if (!hasCeleberated) {
+        Celeberate();
+        hasCeleberated = true;
+      }
+    }else{
+      progressHeading.textContent = "Keep It Up!"
+      hasCeleberated = false;
     }
 
   };
+
+  const saveTasksInLocalStorage = () => {
+    const tasks = Array.from(taskList.querySelectorAll('li')).map(li => ({
+      text: li.querySelector('span').textContent,
+      completed: li.querySelector('.checkbox').checked
+    }));
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+  };
+
+  const loadTasksFromLocalStorage = () => {
+    const savedTasks = JSON.parse(localStorage.getItem('tasks')) || [];
+    savedTasks.forEach(({ text, completed}) => addTask(text, completed, false));
+    toggleEmptyState();
+    updateProgress();
+  }
 
   const addTask = (text, completed = false) => {
     // if first arg is a string use it, otherwise fall back to input value
@@ -69,6 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
       editBtn.style.opacity = isChecked ? '0.2' : '1';
       editBtn.style.pointerEvents = isChecked ? 'none' : 'auto';
       updateProgress();
+      saveTasksInLocalStorage();
     });
 
     editBtn.addEventListener('click', () => {
@@ -76,6 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
         taskInput.value = li.querySelector('span').textContent;
         li.remove();
         toggleEmptyState();
+        saveTasksInLocalStorage();
       }
     });
 
@@ -83,12 +109,14 @@ document.addEventListener('DOMContentLoaded', () => {
       li.remove();
       toggleEmptyState();
       updateProgress();
+      saveTasksInLocalStorage();
     });
 
     taskList.appendChild(li);
     taskInput.value = '';
     toggleEmptyState();
     updateProgress();
+    saveTasksInLocalStorage();
   };
 
   // IMPORTANT: call addTask() without passing the event object, and prevent default form submit
@@ -105,6 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   toggleEmptyState();
+  loadTasksFromLocalStorage();
 });
 
 const Celeberate = () => {

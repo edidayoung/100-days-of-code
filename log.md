@@ -25,6 +25,7 @@
 **Today's Progress:** I have completed my ToDo App. Thing changed/added:
 i. Added the progressBar for the ToDos
 ii. Implemented a celeberation feature and text change after all todos have been Completed.
+iii. Added a Local Storage for the tasks. 
 
 **Thoughts:** The YouTube Tutorials had some little bugs that i couldn't fix and i decided to use AI to rewrite the JS for the app, tho i dont fully understand the differnt builtIn functions, methods and object/properties used by AI but i'd make sure i am able to understand everything the code does and try rewriting it alone from scratch but with more tweaks and updates.
 
