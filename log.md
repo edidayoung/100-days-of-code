@@ -30,4 +30,4 @@ ii. Implemented a celeberation feature and text change after all todos have been
 
 **Status:** Completed ToDos App. Let me Know what you think of the app in the comment section.
 
-**Link to work:**
+**Link to work:**[ToDo App: Completed](https://edidayoung.github.io/100-days-of-code/Project01-ToDo-App/todo-index.html)
