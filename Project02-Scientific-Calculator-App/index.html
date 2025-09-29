@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Calculator</title>
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <!-- Display -->
+    <div class="display">
+      <input type="text" id="calc-display" readonly>
+    </div>
+
+    <!-- Scientific panel (hidden by default) -->
+    <div class="sci-panel hidden" id="sci-panel">
+      <!-- use data-value for the actual string inserted -->
+      <button class="sci-btn" data-value="sin(">sin(</button>
+      <button class="sci-btn" data-value="cos(">cos(</button>
+      <button class="sci-btn" data-value="tan(">tan(</button>
+      <button class="sci-btn" data-value="log(">log(</button>
+      <button class="sci-btn" data-value="√(">√(</button>
+      <button class="sci-btn" data-value="^2">x²</button>
+      <button class="sci-btn" data-value="π">π</button>
+      <button class="sci-btn" data-value="e">e</button>
+      <button class="sci-btn" data-value="("> (</button>
+      <button class="sci-btn" data-value=")"> )</button>
+    </div>
+
+    <!-- Basic buttons -->
+    <div class="buttons">
+      <!-- AC has data-action="clear" (logic reads action), backspace has data-action too -->
+      <button id="clear-btn" class="btn action" data-action="clear">AC</button>
+
+      <!-- backspace button: data-action="backspace" -->
+      <button id="backspace-btn" class="btn action" data-action="backspace" title="Backspace">
+        <i class="fa-solid fa-delete-left"></i>
+      </button>
+
+      <!-- percent -->
+      <button class="btn action" data-value="%">%</button>
+
+      <!-- divide (icon shown, data-value='/') -->
+      <button class="btn operator" data-value="/"> <i class="fa-solid fa-divide"></i> </button>
+
+      <!-- numbers -->
+      <button class="btn number" data-value="7">7</button>
+      <button class="btn number" data-value="8">8</button>
+      <button class="btn number" data-value="9">9</button>
+
+      <!-- multiply (icon shown, data-value='*') -->
+      <button class="btn operator" data-value="*"><i class="fa-solid fa-xmark"></i></button>
+
+      <button class="btn number" data-value="4">4</button>
+      <button class="btn number" data-value="5">5</button>
+      <button class="btn number" data-value="6">6</button>
+
+      <!-- minus -->
+      <button class="btn operator" data-value="-"><i class="fa-solid fa-minus"></i></button>
+
+      <button class="btn number" data-value="1">1</button>
+      <button class="btn number" data-value="2">2</button>
+      <button class="btn number" data-value="3">3</button>
+
+      <!-- plus -->
+      <button class="btn operator" data-value="+"><i class="fa-solid fa-plus"></i></button>
+
+      <button class="btn number" data-value=".">.</button>
+      <button class="btn number" data-value="0">0</button>
+
+      <!-- equals -->
+      <button id="equals-btn" class="btn equals" data-action="equals" title="Equals">
+        <i class="fa-solid fa-equals"></i>
+      </button>
+
+      <!-- toggle scientific panel -->
+      <button id="sci-toggle" class="btn action" data-action="sci-toggle" title="Scientific">
+        <i class="fa-solid fa-flask"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- cache-busted script (bump version if you update) -->
+  <script src="script.js?v=1.0.3"></script>
+</body>
+</html>

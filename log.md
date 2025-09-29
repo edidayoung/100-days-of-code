@@ -32,3 +32,14 @@ iii. Added a Local Storage for the tasks.
 **Status:** Completed ToDos App. Let me Know what you think of the app in the comment section.
 
 **Link to work:**[ToDo App: Completed](https://edidayoung.github.io/100-days-of-code/Project01-ToDo-App/todo-index.html)
+
+********************************************************************************************************************************************************************************************************************
+
+### Day 3: September 29 Monday, 2025
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Status:**
+**Link to work:**
