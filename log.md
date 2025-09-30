@@ -8,7 +8,7 @@
 
 **Link to work:** [ToDo App: Day1](https://tinyurl.com/5a7wdwdh)
 
-********************************************************************************************************************************************************************************************************************
+************************************************************************************************************************************************
 
 ### Day 1: September 27 Saturday, 2025
 
@@ -18,7 +18,7 @@
 
 **Link to work:** [ToDo App: Day2](https://edidayoung.github.io/100-days-of-code/Project01-ToDo-App/todo-index.html)
 
-********************************************************************************************************************************************************************************************************************
+************************************************************************************************************************************************
 
 ### Day 2: September 28 Sunday, 2025
 
@@ -33,7 +33,7 @@ iii. Added a Local Storage for the tasks.
 
 **Link to work:**[ToDo App: Completed](https://edidayoung.github.io/100-days-of-code/Project01-ToDo-App/todo-index.html)
 
-********************************************************************************************************************************************************************************************************************
+************************************************************************************************************************************************
 
 ### Day 3: September 29 Monday, 2025
 
@@ -42,3 +42,15 @@ iii. Added a Local Storage for the tasks.
 **Thoughts:** Honestly i'd have to study the use of built in object and what i would advice is that try as much as possible to write out code manually this'll make you have a glimpes of understanding on what your actually doing.
 
 **Link to work:** [Calculator App: Day1](https://edidayoung.github.io/100-days-of-code/Project02-Scientific-Calculator-App/index.html)
+
+************************************************************************************************************************************************
+
+### Day 4: September 30 Tueday, 2025
+
+**Today's Progress:** Added more featues to the Calculator like (i). History Field to display user calculations. (ii). Added a clear button for the history field. The Calculator is very responsive and does basic scientific and standard calculation perfectly.
+
+**Thoughts:** The calculor has been completed and i am having the thoughts of building a more complexed one with tine in the Future.
+
+**Status:** Completed Calculator App. Let me Know what you think of the app in the comment section.
+
+**Link to work:** [Calculator App: Completed](https://edidayoung.github.io/100-days-of-code/Project02-Scientific-Calculator-App/index.html)
