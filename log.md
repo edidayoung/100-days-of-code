@@ -37,7 +37,7 @@ iii. Added a Local Storage for the tasks.
 
 ### Day 3: September 29 Monday, 2025
 
-**Today's Progress:** Started creating the scientific calculator with chatGPt tho all the login and UX arent that perfect but this is the final reult from todays work.
+**Today's Progress:** Started creating the scientific calculator with chatGPt though all the login and UX arent that perfect but this is the final reult from todays work.
 
 **Thoughts:** Honestly i'd have to study the use of built in object and what i would advice is that try as much as possible to write out code manually this'll make you have a glimpes of understanding on what your actually doing.
 
