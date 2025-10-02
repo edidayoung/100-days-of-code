@@ -67,8 +67,8 @@ iii. Added a Local Storage for the tasks.
 
 ### Day 6: October 2 Wednessday, 2025
 
-**Today's Progress:** 
+**Today's Progress:** Started Working on a new API usage Project today which is a GitHub User Finder. This project is about 70% complete. HTML and CSS have been completed for today, tomorrow i'll be writing the JS for the project.
 
-**Thoughts:** 
+**Thoughts:** Working with HTML and CSS for a whole day, to be honest i feel a little relieved cause i didnt encounter spirit breaking bugs (smiles).But Tomorrow is gonna be a full JS day and hopefully the app wil be ready tomorrow.
 
-**Link to work:** [Calculator App: Completed](https://edidayoung.github.io/100-days-of-code/Project02-Scientific-Calculator-App/index.html)
+**Link to work:** [GitHub User Finder](https://edidayoung.github.io/100-days-of-code/Project03-github-profile-finder/index.html)
