@@ -62,3 +62,13 @@ iii. Added a Local Storage for the tasks.
 **Today's Progress:** Studies JS with FreeCode Camp. Working with Arrays and for Loops.
 
 **Thoughts:** Arrays and Loops are one of the best syntax to understand . My learning curve would be only better if am consistent and dont skip anydays of this coding challenge. 
+
+************************************************************************************************************************************************
+
+### Day 6: October 2 Wednessday, 2025
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+**Link to work:** [Calculator App: Completed](https://edidayoung.github.io/100-days-of-code/Project02-Scientific-Calculator-App/index.html)
