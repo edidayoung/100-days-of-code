@@ -99,7 +99,7 @@ button:hover {
 .profile-header {
   display: flex;
   align-items: flex-start;
-  grid-area: 25px;
+  gap: 25px;
   margin-bottom: 25px;
 }
 
@@ -243,7 +243,7 @@ button:hover {
   gap: 15px;
 }
 .repo-cards {
-  background-color: rgba(225, 225, 225, 0.3);
+  background-color: rgba(225, 225, 225, 0.1);
   border-radius: var(--border-radius);
   padding: 15px;
   border: 1px solid rgba(225, 225, 225, 0.1);
@@ -251,7 +251,7 @@ button:hover {
 }
 .repo-cards:hover {
   transform: translateY(-3px);
-  background-color: rgba(225, 225, 225, 0.1);
+  background-color: rgba(225, 225, 225, 0.05);
 
 }
 
@@ -284,7 +284,7 @@ button:hover {
 
 .repo-meta-item {
   display: flex;
-  align-items: conter;
+  align-items: center;
   gap: 5px;
 }
 
@@ -323,7 +323,7 @@ button:hover {
     gap: 5px;
   }
 
-  .stas,
+  .stats,
   .additional-info {
     flex-direction: column;
     grid-template-columns: 1fr;
