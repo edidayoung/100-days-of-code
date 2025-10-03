@@ -65,10 +65,34 @@ iii. Added a Local Storage for the tasks.
 
 ************************************************************************************************************************************************
 
-### Day 6: October 2 Wednessday, 2025
+### Day 6: October 2 Thursday, 2025
 
 **Today's Progress:** Started Working on a new API usage Project today which is a GitHub User Finder. This project is about 70% complete. HTML and CSS have been completed for today, tomorrow i'll be writing the JS for the project.
 
 **Thoughts:** Working with HTML and CSS for a whole day, to be honest i feel a little relieved cause i didnt encounter spirit breaking bugs (smiles).But Tomorrow is gonna be a full JS day and hopefully the app wil be ready tomorrow.
 
 **Link to work:** [GitHub User Finder](https://edidayoung.github.io/100-days-of-code/Project03-github-profile-finder/index.html)
+
+************************************************************************************************************************************************
+
+### Day 7: October 3 Friday, 2025
+
+**Today's Progress:** Today i completed the full JS code for the GitHub Finder App as promised. The app is working smoothly now.
+
+**Thoughts:** JS logic requires real critical thinking, though i do not fully understand the full logic and when to use a built-in-fucntion or objects but i can proudly say am starting to get a hang on it.
+
+**Status:** Completed GitHub User Finder . What other feature do you think will make this project stand out more!!
+
+**Link to work:** [GitHub User Finder: Completed](https://edidayoung.github.io/100-days-of-code/Project03-github-profile-finder/index.html)
+
+************************************************************************************************************************************************
+
+### Day 8: October 4 Friday, 2025
+
+**Today's Progress:**
+
+**Thoughts:** 
+
+**Status:** 
+
+**Link to work:**
