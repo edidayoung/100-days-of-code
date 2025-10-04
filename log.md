@@ -87,12 +87,17 @@ iii. Added a Local Storage for the tasks.
 
 ************************************************************************************************************************************************
 
-### Day 8: October 4 Friday, 2025
+### Day 8: October 4 Saturday, 2025
 
-**Today's Progress:**
+**Today's Progress:** I learnt about loops today with freecode camp
 
-**Thoughts:** 
+**Thoughts:** Loops in js always wait for the condition to be false before the loops stop which means that without a condition being met the loops continues.
 
-**Status:** 
+************************************************************************************************************************************************
 
-**Link to work:**
+### Day 9: October 5 Sunday, 2025
+
+**Today's Progress:** I learnt about loops today with freecode camp
+
+**Thoughts:** Loops in js always wait for the condition to be false before the loops stop which means that without a condition being met the loops continues.
+
