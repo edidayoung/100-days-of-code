@@ -89,7 +89,7 @@ iii. Added a Local Storage for the tasks.
 
 ### Day 8: October 4 Saturday, 2025
 
-**Today's Progress:** I learnt about loops today with freecode camp
+**Today's Progress:** I learnt about loops today with freecode camp.
 
 **Thoughts:** Loops in js always wait for the condition to be false before the loops stop which means that without a condition being met the loops continues.
 
@@ -97,7 +97,17 @@ iii. Added a Local Storage for the tasks.
 
 ### Day 9: October 5 Sunday, 2025
 
-**Today's Progress:** I learnt about loops today with freecode camp
+**Today's Progress:** Worked on a custom 404 page. Obviouly i only used HTML and CSS for this project.
 
-**Thoughts:** Loops in js always wait for the condition to be false before the loops stop which means that without a condition being met the loops continues.
+**Thoughts:** I have this new site called storyset.com where you can go on to find differnet custom 404 images, an cool immages for mordern websites and applications.
+
+**Status:** Completed Custom 404 Page.
+
+**Link to work:** [Custom 404 Page: Completed](https://edidayoung.github.io/100-days-of-code/Project04-404-design/index.html)
+
+
+
+************************************************************************************************************************************************
+
+
 
