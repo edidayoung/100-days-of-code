@@ -115,6 +115,6 @@ iii. Added a Local Storage for the tasks.
 
 **Thoughts:** I finished the HTML and CSS easily as usuals. Tomorrow i'll be making the NewsLetter interactive using JS. 
 
-**Link to work:** [NewsLetter SignUp](https://edidayoung.github.io/100-days-of-code/Project05-newsletter-signup/index.html.html)
+**Link to work:** [NewsLetter SignUp](https://edidayoung.github.io/100-days-of-code/Project05-newsletter-signup/index.html)
 
 
