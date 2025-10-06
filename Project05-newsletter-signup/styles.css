@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+  --primary-color: #15fa47;   
+  --secodary-color: #ad2e07;    
+  --primary-light: #fef9c3;   
+  --bg-conatiner: #1a1a1a;         
+  --card-bg: #252525;         
+  --text-light: #f3f4f6;      
+  --text-dark: #a8abaf;       
+  --shadow-color:rgba(0, 0, 0, 0.3);
+  --border-color: #122e05;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--bg-conatiner);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-light);
+}
+
+.signup-container {
+    background-color: var(--card-bg);
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px var(--shadow-color) ;
+    max-width: 400px;
+    width: 90%;
+    border: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.icon-container {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+h2 {
+  margin-bottom: 0.75rem;
+  color: var(--text-light);
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 0.95rem;
+  color: var(--text-dark);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;  
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.input-group i {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-dark);
+}
+
+input {
+  width: 100%;
+  padding: 0.85rem 0.85rem 0.85rem 2.5rem;
+  border: 1px solid var(--text-dark);
+  border-radius: 8px;
+  background-color: var(--bg-conatiner);
+  color: var(--text-light);
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--border-color);
+  box-shadow: 0 0 3px var(--primary-color);
+}
+
+input::placeholder {
+  color: var(--text-dark);
+  opacity: 0.7;
+}
+
+button {
+  width: 100%;
+  padding: 0.85rem;
+  background-color: var(--primary-color);
+  color: rgb(14, 13, 13);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+button:hover {
+  background-color: #71df8a;
+  transform: translateY(-1px);
+}
+
+button i {
+  font-size: 1.1rem;
+  transition: transform 0.3s ease;
+}
+
+button:hover i {
+  transform: rotate(-20deg);
+}
+
+.benefits {
+  margin-top: 1.5rem;
+  text-align: left;
+  border-top: 1px solid var(--text-dark);
+  padding-top: 1.5rem;
+}
+
+.benefits-items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  gap: 8px;
+}
+
+.benefits-items i {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 480px) {
+  .signup-container {
+    padding: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  p, .benefits-items {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 0.75rem;
+  }
+}
