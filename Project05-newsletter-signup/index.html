@@ -12,16 +12,20 @@
     <div class="icon-container">
       <i class="fa-regular fa-envelope-open"></i>
     </div>
-    <h2>Join Our NewsLetter</h2>
+    <h2>Join Our Newsletter</h2>
     <p>Get the latest updates and coding tips straight to your inbox</p>
 
-    <form>
+    <form id="newsletter-form">
       <div class="input-group">
         <i class="fa-regular fa-envelope"></i>
-        <input type="email" required placeholder="Enter your email" id="">
+        <input autocomplete="off" type="email" required placeholder="Enter your email" id="email-input">
       </div>
+      <div class="error-message" id="error-message">Please enter a valid email address</div>
 
-      <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+      <button type="submit" id="submit-button">
+        <span id="button-text">Subscribe</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
     </form>
 
     <div class="benefits">
@@ -31,10 +35,17 @@
       <p class="benefits-items">
         <i class="fas fa-check"></i>You can unsubscribe anytime.
       </p>
-      
+    </div>
 
+    <!-- Success Message -->
+    <div class="success-message" id="success-message">
+      <i class="fas fa-check-circle success-icon"></i>
+      <h3>Successfully Subscribed!</h3>
+      <p id="success-text">Thank you for subscribing to our newsletter. You'll receive a confirmation email shortly.</p>
+      <button id="close-success">Close</button>
     </div>
   </div>
+  <script src="scripts.js"></script>
   
 </body>
 </html>

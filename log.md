@@ -117,4 +117,19 @@ iii. Added a Local Storage for the tasks.
 
 **Link to work:** [NewsLetter SignUp](https://edidayoung.github.io/100-days-of-code/Project05-newsletter-signup/index.html)
 
+************************************************************************************************************************************************
+
+### Day 11: October 7 Tuesday, 2025
+
+**Today's Progress:** Enhanced the NewsLetter SignUp with additional features:
+- Added form validation with real-time feedback
+- Implemented loading states with spinner animations
+- Created smooth success message transitions
+- Improved user experience with error handling
+
+**Thoughts:** The JavaScript integration went smoothly. The loading states and success animations make the form feel much more professional and responsive.
+
+**Link to work:** [Enhanced NewsLetter SignUp](https://edidayoung.github.io/100-days-of-code/Project05-newsletter-signup/index.html)
+
+
 
