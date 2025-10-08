@@ -131,5 +131,15 @@ iii. Added a Local Storage for the tasks.
 
 **Link to work:** [Enhanced NewsLetter SignUp](https://edidayoung.github.io/100-days-of-code/Project05-newsletter-signup/index.html)
 
+************************************************************************************************************************************************
+
+### Day 12: October 8 Saturday, 2025
+
+**Today's Progress:** The journey continues! I've moved firmly into the JavaScript portion of my learning path. Right now, I'm building a strong foundation by following the excellent curriculum from SuperSimple Dev.
+
+**Thoughts:** I am starting to understand Data Structures and why they are important to know. The goal is clear, to master the logic that defines modern web development.
+
+************************************************************************************************************************************************
+
 
 
