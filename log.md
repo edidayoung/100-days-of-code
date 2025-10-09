@@ -133,13 +133,21 @@ iii. Added a Local Storage for the tasks.
 
 ************************************************************************************************************************************************
 
-### Day 12: October 8 Saturday, 2025
+### Day 12: October 8 Wednessday, 2025
 
 **Today's Progress:** The journey continues! I've moved firmly into the JavaScript portion of my learning path. Right now, I'm building a strong foundation by following the excellent curriculum from SuperSimple Dev.
 
 **Thoughts:** I am starting to understand Data Structures and why they are important to know. The goal is clear, to master the logic that defines modern web development.
 
 ************************************************************************************************************************************************
+
+### Day 13: October 9 Thursday, 2025
+
+**Today's Progress:** I was able to generate the HTML from the products data. This was quite easy than i thought it'd be. 
+
+**Thoughts:** In other to keep your code base clean, you have to seperate some JS files. And also the arranement of linked JS files to you HTML really do matter.
+
+**Tomorrow** Fix the Add to Cart button to actually add the project to the chart.
 
 
 
