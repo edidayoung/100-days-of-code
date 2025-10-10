@@ -149,5 +149,13 @@ iii. Added a Local Storage for the tasks.
 
 **Tomorrow** Fix the Add to Cart button to actually add the project to the chart.
 
+************************************************************************************************************************************************
+
+### Day 14: October 10 Friday, 2025
+
+**Today's Progress:** I made the add to cart button and cart quantity interactive. The JS side of the Amzon Clone Project is gradually coming together very well. 
+
+**Thoughts:** The main idea of JS is simply to; i. Save the Data ii. Generate the HTML iii. Make it Interactive. with this learnt today i hope i would start viewing JS as a simple and straight forward language.
+
 
 
