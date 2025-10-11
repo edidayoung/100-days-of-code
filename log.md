@@ -157,5 +157,14 @@ iii. Added a Local Storage for the tasks.
 
 **Thoughts:** The main idea of JS is simply to; i. Save the Data ii. Generate the HTML iii. Make it Interactive. with this learnt today i hope i would start viewing JS as a simple and straight forward language.
 
+************************************************************************************************************************************************
+
+### Day 15: October 11 Saturday, 2025
+
+**Today's Progress:** Worked on the Modules today and created a new js file for the checkout page. I also cleaned up tje code with functions for the cart operations. 
+
+**Thoughts:** Modules make code organized and reduce naming conflict in the code.
+
+************************************************************************************************************************************************
 
 
