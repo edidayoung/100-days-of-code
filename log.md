@@ -167,4 +167,15 @@ iii. Added a Local Storage for the tasks.
 
 ************************************************************************************************************************************************
 
+### Day 16: October 12 Sunday, 2025
+
+**Today's Progress:** 
+- Generated HTML fo the order Summary on the Amazon Project clone. 
+- I also created a function for formatting prices and also fixed the radio selectors. 
+- Added Local Storage to the checkout page. 
+
+**Thoughts:** The project is coming to shape and in the process and learning the more complex concepts of JS.
+
+************************************************************************************************************************************************
+
 
