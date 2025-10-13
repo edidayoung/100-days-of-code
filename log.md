@@ -178,4 +178,19 @@ iii. Added a Local Storage for the tasks.
 
 ************************************************************************************************************************************************
 
+### Day 17: October 13 Monday, 2025
+
+**Today's Progress:** Started working on my CodeAplha Project Today. Currently creating a Basic Calculator which is a task given to me by CodeAlpha as my role as a Frontend Dev.
+
+**Thoughts:** I decided to start from the simpler tasks and work my way up to the more complex once Step by Step.
+
+**Status:**  I have Succesfully completed the HTML & CSS for the Calculator, will start working on the JS soon.
+
+**Link to Work** [CodeAlpha Basic Calculator](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_BasicCalculator/index.html)
+
+************************************************************************************************************************************************
+
+
+
+
 
