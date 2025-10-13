@@ -184,9 +184,9 @@ iii. Added a Local Storage for the tasks.
 
 **Thoughts:** I decided to start from the simpler tasks and work my way up to the more complex once Step by Step.
 
-**Status:**  I have Succesfully completed the HTML & CSS for the Calculator, will start working on the JS soon.
+**Status:**  Completed: I have Succesfully completed the Calculator
 
-**Link to Work** [CodeAlpha Basic Calculator](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_BasicCalculator/index.html)
+**Link to Work** [CodeAlpha Basic Calculator: Completed](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_BasicCalculator/index.html)
 
 ************************************************************************************************************************************************
 
