@@ -72,8 +72,8 @@ body {
 }
 
 .operator {
-  background: #444; /* dark gray for operators */
-  color: #ffb400;   /* orange highlight */
+  background: #444;
+  color: #ffb400; 
 }
 
 .equals {
@@ -87,7 +87,6 @@ body {
   color: white;
 }
 
-/* Scientific buttons panel */
 .sci-panel {
   margin-bottom: 15px;
   display: grid;
@@ -101,7 +100,7 @@ body {
 
 .sci-btn {
   background: #262626;
-  color: #5ec8ff; /* light blue for sci buttons */
+  color: #5ec8ff;
   font-size: 1rem;
   padding: 12px;
   border-radius: 10px;
@@ -116,7 +115,6 @@ body {
   background: rgba(63, 62, 62, 0.5 );
 }
 
-/* History panel */
 .history {
   margin-top: 20px;
   background: rgba(0, 0, 0, 0.5);

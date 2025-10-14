@@ -190,6 +190,16 @@ iii. Added a Local Storage for the tasks.
 
 ************************************************************************************************************************************************
 
+### Day 18: October 14 Tuesday, 2025
+
+**Today's Progress:** Today was a hectic day, and i couldn't think of any small project to learn my JS with which i could build in under 2hrs but i quickly thought of bulding a Wall clock. 
+
+**Thoughts:** Wrote the Html and CSS codes for the Clock and since its already almost a new day and havent been able to log in my progress for the day i decided to log this in instead. HTML and CSS for Wall Clock Complete, Tomorrow is a full JS Day!
+
+**Link to Work** [Clock](https://edidayoung.github.io/100-days-of-code/Project06-clock/index.html)
+
+************************************************************************************************************************************************
+
 
 
 
