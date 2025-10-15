@@ -1,51 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Shizuru&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .clock-container {
-    text-align: center;
+  text-align: center;
 }
 
 .clock {
-    width: 350px;
-    height: 350px;
-    border: 8px solid #2c3e50;
-    border-radius: 50%;
-    background: #ecf0f1;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3),
-    inset 0 0 20px rgba(0, 0, 0, 0.1);
-    position: relative;
-    margin-bottom: 20px;
+  width: 350px;
+  height: 350px;
+  border: 8px solid #2c3e50;
+  border-radius: 50%;
+  background: #ecf0f1;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3),
+              inset 0 0 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .clock-face {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform: translateY(-3px); /* Account for the height of the clock hands */
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
-/* Hour marks */
+.clock {
+  transition: transform 1.2s ease-in-out; /* slower and smoother */
+}
+
+.clock:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px #2c3e50;
+}
+
+#timezoneSelect {
+  background: rgba(161, 183, 204, 0.85);
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  box-shadow: 0 0 8px #2c3e50;
+}
+
+#timezoneSelect:hover {
+  background: rgba(161, 183, 204, 0.4);
+  box-shadow: 0 0 12px rgba(44, 62, 80, 0.8);
+  transform: scale(1.02);
+}
+
 .hour-mark {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    color: #2c3e50;
-    transform-origin: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+  transform-origin: center;
 }
 
 .mark-12 { transform: rotate(0deg); }
@@ -61,105 +89,114 @@ body {
 .mark-10 { transform: rotate(300deg); }
 .mark-11 { transform: rotate(330deg); }
 
-/* Minute marks */
-.minute-marks {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.minute-marks::before {
-    content: '';
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    width: 2px;
-    height: 8px;
-    background: #7f8c8d;
-    transform: translateX(-50%);
-}
-
-.minute-marks::after {
-    content: '';
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    width: 2px;
-    height: 8px;
-    background: #7f8c8d;
-    transform: translateX(-50%) rotate(30deg);
-}
-
-/* Clock hands */
 .hand {
-    position: absolute;
-    bottom: 50%;
-    left: 50%;
-    transform-origin: bottom;
-    border-radius: 10px 10px 0 0;
-    transform: translateX(-50%) rotate(0deg);
-    transition: transform 0.05s cubic-bezier(0.4, 2.3, 0.8, 1);
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom;
+  border-radius: 10px 10px 0 0;
+  transform: translateX(-50%) rotate(0deg);
 }
 
 .hour-hand {
-    width: 6px;
-    height: 30%;
-    background: #2c3e50;
-    z-index: 3;
+  width: 6px;
+  height: 30%;
+  background: #2c3e50;
+  z-index: 3;
+  transition: transform 0.3s ease;
 }
 
 .minute-hand {
-    width: 4px;
-    height: 40%;
-    background: #34495e;
-    z-index: 2;
+  width: 4px;
+  height: 40%;
+  background: #34495e;
+  z-index: 2;
+  transition: transform 0.3s ease;
 }
 
 .second-hand {
-    width: 2px;
-    height: 45%;
-    background: #e74c3c;
-    z-index: 1;
+  width: 2px;
+  height: 45%;
+  background: #e74c3c;
+  z-index: 1;
 }
 
-/* Center dot */
 .center-dot {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 12px;
-    height: 12px;
-    background: #2c3e50;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 4;
-    border: 2px solid #ecf0f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  background: #2c3e50;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  border: 2px solid #ecf0f1;
 }
 
-/* Digital time display */
+/* === Digital section layout === */
+.digital-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 .digital-time {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    background: rgba(44, 62, 80, 0.8);
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-family: 'Courier New', monospace;
-    letter-spacing: 2px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background: rgba(44, 62, 80, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  letter-spacing: 1px;
 }
 
-/* Responsive design */
+/* Timezone select */
+.timezone-select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background: #ecf0f1;
+  font-weight: bold;
+}
+
+/* Tick button */
+.tick-toggle {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  min-width: 70px;
+}
+
+.tick-toggle:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
+
+.tick-toggle.active {
+  background: #27ae60;
+}
+
+
+
 @media (max-width: 600px) {
-    .clock {
-        width: 300px;
-        height: 300px;
-    }
+
+  .clock {
+    width: 300px;
+    height: 300px;
+  }
+  .digital-time {
+    font-size: 20px;
     
-    .hour-mark {
-        font-size: 16px;
-    }
-    
-    .digital-time {
-        font-size: 20px;
-    }
+  }
 }
