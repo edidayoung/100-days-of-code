@@ -200,7 +200,7 @@ iii. Added a Local Storage for the tasks.
 
 ************************************************************************************************************************************************
 
-### Day 19: October 15 Tuesday, 2025
+### Day 19: October 15 Wednessday, 2025
 
 **Today's Progress:** Finally, successfully completed the Wall Clock Project! This interactive timepiece showcases the power of JavaScript in creating dynamic, real-time applications.
 
@@ -209,6 +209,34 @@ iii. Added a Local Storage for the tasks.
 **Status:**  Completed: Wall Clock is Successfully completed.
 
 **Link to Work** [Clock](https://edidayoung.github.io/100-days-of-code/Project06-clock/index.html)
+
+************************************************************************************************************************************************
+
+### Day 20: October 16 Thursday, 2025
+
+**Today's Progress:** Started Working on my Portfolio project as a part of Code Alpas Projects.
+
+**Thoughts:** Though sometimes we just don feel like doing anything we should try and adjust and try to chace out goals and not comfort. 
+
+************************************************************************************************************************************************
+
+### Day 21: October 17 Friday, 2025
+
+**Today's Progress:** Finished the Header of my website.
+
+**Thoughts:** Understood more css and js concepts
+
+**Link to Work** [My Portfolio](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_PersonalPortfolioSite/index.html)
+
+************************************************************************************************************************************************
+
+### Day 22: October 18 Saturday, 2025
+
+**Today's Progress:** Started out on the Bio Section of my portfolio project. i am Gradually and carefully designing my portfolio to suite my taste.
+
+**Thoughts:** Enhancing my knowledge on HTML and More CSS.
+
+**Link to Work** [My Portfolio](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_PersonalPortfolioSite/index.html)
 
 
 
