@@ -238,6 +238,16 @@ iii. Added a Local Storage for the tasks.
 
 **Link to Work** [My Portfolio](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_PersonalPortfolioSite/index.html)
 
+************************************************************************************************************************************************
+
+### Day 23: October 19 Sunday, 2025
+
+**Today's Progress:**Completed the vital part of my potfolio project and will be giving the finishing touches by tomorrow
+
+**Thoughts:** Using bout 3 days to build my portfolio site UI has been really an intersting journey.  
+
+**Link to Work** [My Portfolio](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_PersonalPortfolioSite/index.html)
+
 
 
 
