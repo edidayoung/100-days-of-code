@@ -242,9 +242,21 @@ iii. Added a Local Storage for the tasks.
 
 ### Day 23: October 19 Sunday, 2025
 
-**Today's Progress:**Completed the vital part of my potfolio project and will be giving the finishing touches by tomorrow
+**Today's Progress:** Completed the vital part of my potfolio project and will be giving the finishing touches by tomorrow
 
 **Thoughts:** Using bout 3 days to build my portfolio site UI has been really an intersting journey.  
+
+**Link to Work** [My Portfolio](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_PersonalPortfolioSite/index.html)
+
+************************************************************************************************************************************************
+
+### Day 24: October 20 Monday, 2025
+
+**Today's Progress:** Finished up my Portfolio site today and will be updatig and adding more feature as the years pass.
+
+**Thoughts:**  This was a very cool project which was extremely fun and rewarding.
+
+**Status:**  Completed: My Portfolio Site: is Successfully completed.
 
 **Link to Work** [My Portfolio](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_PersonalPortfolioSite/index.html)
 
