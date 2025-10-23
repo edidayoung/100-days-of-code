@@ -260,6 +260,37 @@ iii. Added a Local Storage for the tasks.
 
 **Link to Work** [My Portfolio](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_PersonalPortfolioSite/index.html)
 
+************************************************************************************************************************************************
+
+### Day 25: October 21 Tuesday, 2025
+
+**Today's Progress:** Finished up my HNG project of Stage 1 
+
+**Thoughts:** Though the project was tidious i am happy to have been able to finish succesffully.
+
+**Status:** Completed: My Profil Card Site: is Successfully completed. 
+
+**Link to Work** [ProfileCard Site](https://edidayoung.github.io/HNG-Tasks/HNG-Stage-1/index.html)
+
+************************************************************************************************************************************************
+
+### Day 26: October 22 Wednessday, 2025
+
+**Today's Progress:** Started working on an Image gallery site for my code alpha project. Using Unsplash API. 
+
+**Thoughts:** I have been able to go this far in the project and will be implementing more functionalities soon.  
+
+**Link to Work** [Ice Gallery](http://edidayoung.github.io/CodeAplha_Projects/CodeAlpha_ImageGallery/index.html)
+
+************************************************************************************************************************************************
+
+### Day 27: October 23 Thursday, 2025
+
+**Today's Progress:** The project is coming together bit by bit, I have been able to fix all pages remainign only the Frost Frame page to be worked on soon.
+
+**Thoughts:** Using API can be very fun but the deifficult part is understanding its implementation and even more building it.  
+
+**Link to Work** [Ice Gallery](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_ImageGallery/index.html)
 
 
 
