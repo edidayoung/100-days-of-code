@@ -292,6 +292,162 @@ iii. Added a Local Storage for the tasks.
 
 **Link to Work** [Ice Gallery](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_ImageGallery/index.html)
 
+************************************************************************************************************************************************
+
+### Day 28: October 24 Friday, 2025
+
+**Today's Progress:** Really no a productive day today, i just revisited my Amazon clone project and ficed some stuffs on it.
+
+**Thoughts:** Even tough the whole day is callenging and sometimes feels like no progress is being made. Never give up. 
+
+************************************************************************************************************************************************
+
+### Day 29: October 25 Saturday, 2025
+
+**Today's Progress:** Building frostframe from scratch. Completed the building of the frost frame website project
+
+**Thoughts:** i am looking to improve the project evn more wit time. 
+
+**Link to Work** [Ice Gallery](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_ImageGallery/index.html)
+
+************************************************************************************************************************************************
+
+### Day 30: October 26 Sunday, 2025
+
+**Today's Progress:** Focus on my HNG project building the REACT phase of the project.
+
+**Thoughts:**  React is one of the best JS frameworks out there, with seemless component based architecture, state management and dynamic UI rendering. 
+
+************************************************************************************************************************************************
+
+### Day 31: October 27 Monday, 2025
+
+**Today's Progress:** One System 3 Frameworks. I focused on building the Vue and Twig versions of my project. And I would say it was a really nice and eye opening experience.
+
+**Thoughts:** HNG is a very intuitive internship program that exposes its interns to real world projects development. 
+
+************************************************************************************************************************************************
+
+### Day 32: October 28 Tuesday, 2025
+
+**Today's Progress:** I worked on many projects today from deploying my HNG project to editing and Finessing my Personal Portfolio.
+
+**Thoughts:** Today being a very productive Day has made life easier and more Fulfilling.  
+
+**Link to Work** [Ice Gallery](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_PersonalPortfolioSite/index.htmll)
+
+************************************************************************************************************************************************
+
+### Day 33: October 29 Wednesday, 2025
+
+**Today's Progress:** Decided to go back to my Amzon Clone project and fix the checkout section of the project by updating the order checkout times and dat using the Date() function.
+
+**Thoughts:** Using Date() fucntion is limited in some way, which most time often require manual manipulation to customize out "time" display.  
+
+************************************************************************************************************************************************
+
+### Day 34: October 30 Thursday, 2025
+
+**Today's Progress:** Dived into JavaScript Modules (ESM) and it finally clicked. I used libraries to save a lot of time creating some fucntions e.g the Date Function().
+
+**Thoughts:** ESM modules keep our code cleaner and more maintainable. I figured that not all libraries support ESM.
+
+************************************************************************************************************************************************
+
+### Day 35: October 31 Friday, 2025
+
+**Today's Progress:** I continued working on my amazon clone project and implemented these features.
+- My cart now responds in real time as you add items. 
+- I also integrated the delivery options module. This was a very vital addition to my project progression.
+
+**Thoughts:** The amazon clone project is coming together bit by bit and should be usable soon. 
+
+************************************************************************************************************************************************
+
+### Day 36: November 1 Saturday, 2025
+
+**Today's Progress:** The whole day, yesterday and part of today (1st Nov, 2025) was spent on building the HTML and CSS structure for my CodeAlpha project “Music Player 🎵". The music players was nice and structured well.
+
+**Thoughts:**  HTML and CSS is where you know eberything about how you website or webapp should look like and try to bring it to live next with JS.
+
+**Link to Work** [MusicPlayer](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_MusicPlayer/index.html)
+
+************************************************************************************************************************************************
+
+### Day 37: November 2 Sunday, 2025
+
+**Today's Progress:** Today I worked on the JS part of my music player bringing everything to live.
+
+**Thoughts:** JavaScripts is a very unique language in the sense that its easy to workwith and has a good documentation for fixing bugs and writing clean code.
+
+**Link to Work** [MusicPlayer](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_MusicPlayer/index.html)
+
+************************************************************************************************************************************************
+
+### Day 38: November 3 Monday, 2025
+
+**Today's Progress:** Fixed a bug with my Amzon clone website. The local storage was breaking the cart logic and I fixed this by clearing out all old corrupted dat from local Storage and also restructured the logic so each cart updates accordingly.
+
+**Thoughts:** Even though we dont anticipate to have a buggy codebase but truely bugs help you discover thing you would never have known if it didnt go wrong.
+
+************************************************************************************************************************************************
+
+### Day 39: November 4 Tuesday, 2025
+
+**Today's Progress:** Started working on my Audiofile Website as part of a task given by HNG, but unfortunately due to technical issues couldnt finish up on time.
+
+**Thoughts:** When not knowledgeable about a Tool try and have a brief introductory video or guide first before starting up with it.
+
+************************************************************************************************************************************************
+
+### Day 40: November 5 Wednesday, 2025
+
+**Today's Progress:**
+
+**Thoughts:**  
+
+**Link to Work** 
+
+************************************************************************************************************************************************
+
+### Day 41: November 6 Thursday, 2025
+
+**Today's Progress:**
+
+**Thoughts:**  
+
+**Link to Work** 
+
+************************************************************************************************************************************************
+
+### Day 42: November 7 Friday, 2025
+
+**Today's Progress:**
+
+**Thoughts:**  
+
+**Link to Work** 
+
+************************************************************************************************************************************************
+
+### Day 43: November 8 Saturday, 2025
+
+**Today's Progress:**
+
+**Thoughts:**  
+
+**Link to Work** 
+
+************************************************************************************************************************************************
+
+### Day 44: November 9 Sunday, 2025
+
+**Today's Progress:**
+
+**Thoughts:**  
+
+**Link to Work** 
+
 
 
 
