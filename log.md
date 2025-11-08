@@ -428,11 +428,9 @@ iii. Added a Local Storage for the tasks.
 
 ### Day 43: November 8 Saturday, 2025
 
-**Today's Progress:**
+**Today's Progress:** I worked on the Check-out section of my amazon clone project today. I was able to fixed the price calculation and also the taxs and deliveryday prces additions are all properly calculated.
 
-**Thoughts:**  
-
-**Link to Work** 
+**Thoughts:** Proper implementation of e-commerce website checkout features needs deligence and proper management. 
 
 ************************************************************************************************************************************************
 
