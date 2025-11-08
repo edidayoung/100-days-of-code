@@ -402,31 +402,27 @@ iii. Added a Local Storage for the tasks.
 
 ### Day 40: November 5 Wednesday, 2025
 
-**Today's Progress:**
+**Today's Progress:** Today on taking on another part of my amazon project I learnt about Recursion and MVC.
 
-**Thoughts:**  
-
-**Link to Work** 
+**Thoughts:**  Learning never ends. the more we learn the more we know even though we completely dont understand. 
 
 ************************************************************************************************************************************************
 
 ### Day 41: November 6 Thursday, 2025
 
-**Today's Progress:**
+**Today's Progress:** Made progress on the order payment summary integration of my Amazon clone project. Though I faced some technical issues that slowed me down, I was able to identify the cause and implement a quick fix to keep the project moving forward.
 
-**Thoughts:**  
-
-**Link to Work** 
+**Thoughts:** Not every day has to be filled with big wins — some days are simply about showing up, learning, and pushing forward despite setbacks. Today reminded me that discipline is what bridges the gap between goals and accomplishments. So, even when progress feels small, consistency keeps the momentum alive. 
 
 ************************************************************************************************************************************************
 
 ### Day 42: November 7 Friday, 2025
 
-**Today's Progress:**
+**Today's Progress:** Fixed a major mobile usability bug in my web-based music player. The issue stemmed from autoplay restrictions on mobile browsers, the player attempted to start playback before any user interaction, causing the play button to become unresponsive. I solved this by adding a user interaction gate, ensuring the audio context initializes only after the user's first tap or click.
 
-**Thoughts:**  
+**Thoughts:** Today’s fix was a solid reminder that what works perfectly on desktop might fail silently on mobile. Each platform has its quirks, and understanding those nuances is what truly sharpens a developer’s edge. Consistency across devices isn’t just good UX, it’s professionalism in practice.
 
-**Link to Work** 
+**Link to Work** [MusicPlayer](https://edidayoung.github.io/CodeAlpha_Projects/CodeAlpha_MusicPlayer/index.html) 
 
 ************************************************************************************************************************************************
 
