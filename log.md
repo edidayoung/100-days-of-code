@@ -436,11 +436,9 @@ iii. Added a Local Storage for the tasks.
 
 ### Day 44: November 9 Sunday, 2025
 
-**Today's Progress:**
+**Today's Progress:** Completed the MVC for rendering and calculating the order summary section of my checkout page in the Amazon Clone Site. And after i did that i started leanring about test cases.
 
-**Thoughts:**  
-
-**Link to Work** 
+**Thoughts:** Automated testing is basically the best for anytype of project since its just code testing code rather than doing it manually. 
 
 
 
