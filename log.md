@@ -440,6 +440,24 @@ iii. Added a Local Storage for the tasks.
 
 **Thoughts:** Automated testing is basically the best for anytype of project since its just code testing code rather than doing it manually. 
 
+************************************************************************************************************************************************
+
+### Day 45: November 10 Monday, 2025
+
+**Today's Progress:** Worked on an email sender that would ease me sending 30+ emails perday manually
+
+**Thoughts:** Repeatitive work can definitely be automated if done right.
+
+************************************************************************************************************************************************
+
+### Day 44: November 11 Tuesday, 2025
+
+**Today's Progress:** 
+
+**Thoughts:** 
+
+
+
 
 
 
